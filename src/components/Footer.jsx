@@ -41,8 +41,8 @@ function Footer() {
             <Link to={'https://bootswatch.com'} style={{textDecoration:'none',color:'white'}}><i class="fa-brands fa-facebook fa-2x"></i></Link>
           </div>
         </div>
-
       </div>
+      
     </div>
   )
 }

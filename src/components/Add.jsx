@@ -44,6 +44,8 @@ function Add({setUploadVideoStatus}) {
        console.log(response);
        if(response.status>=200 && response.status<300){
         toast.success(`${response.data.caption} is successfully Uploaded`)
+
+        
         //to close the modal
         setUploadVideoStatus(response.data)
         handleClose()
